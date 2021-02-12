@@ -14,7 +14,7 @@ Widget titleSection = Container(
       Expanded(
         // Create column inside of an expanded widget stretchs the column to use all free space in the row
         child: Column(
-          crossAxisAlignment: crossAxisAlignment.start,
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             //adds padding/grey text
             Container(
@@ -22,7 +22,7 @@ Widget titleSection = Container(
               child: Text(
                 'Trips to Mars',
                 style: TextStyle(
-                  fontweight: FontWeight.bold,
+                  fontWeight: FontWeight.bold,
                 ),
               ),
             ),
